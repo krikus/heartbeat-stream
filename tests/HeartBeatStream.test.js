@@ -30,7 +30,7 @@ describe("HeartBeat Stream", () => {
         const items = 1
         const readStream = new TestReadStream({ items, delay: 0 })
         const writeStream = new TestWriteStream()
-        const heartBeatStream = new HeartBeatStream({ bufferSize: 220, delay: 100000 })
+        const heartBeatStream = new HeartBeatStream({ bufferSize: 220, delay: 9999 })
 
         writeStream.on('finish', () => {
             expect(items).toBe(writeStream.getItemsCount())

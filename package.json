@@ -1,6 +1,6 @@
 {
   "name": "heartbeat-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "heartbeat stream will help to keep objects flowing when main stream is waiting for more data",
   "main": "index.js",
   "scripts": {

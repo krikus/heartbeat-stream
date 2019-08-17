@@ -8,6 +8,8 @@ script:
 deploy:
   provider: npm
   email: "krikus@gmail.com"
-  api_key: "NPM_KEY"
+  api_key:
+    secure:
+      "PC/t3X+Vg34yXNCKYfas1+GpgCI+HVg97Gzl1/WdGWlv5DsUTSKKGY7YLpM8/YbPb2hiBBv544/o0lt7GFa0SbJJyjjkPTSZDBoxwFlswS3cGfLgbFM3PlyVQ3UdaefASee2Gpv5g123ZzgQ+5qppl6pE3XvkWhe3Zyk4ziX9WrV6PnBEQVmtndcmPoqU08SyhkK0We4Y6rKiW7tOZrjIPxLDVfHuCbIdLYzPZiDu93sIuzSuDxI5IVuWzBr+8Ga+QRjAEKmp4pW9XJpiHLFWEItb/JCGEDo2DTIA4uYAmUhRjq6wDBqfx7K3HX1MGLrOV0NtndEXlpRnnyth242GZL+NkH2IYtM/aB4vOhxe610i34oJQIYGc/MHcjNlu+Y98RdUaeGcVFV+3oPbjx96aUe5/41oqD7kaMKZp7BjYWLIgkD7FGJf13cw4d+pcHhPMft0Lsk+LopDinX9JpMzKmZa3Q93h7tBFJr5LI/wfJ5gTxya8a1h2tJmNESo/x3V9H3SIar7VK1wwlWxtz6YSeDE9vu0JMwLv46UwsTV6LGR8jK82WE6nu14m/HxCipI/sBzgkwNeUkVgfL1RGKDAGK3XVIGP6b7PifOdUO7uArCOOynkKf/H3XO3uKLoCC3+ypv5MsmikWjklpCdweaK9U5CS5jMrPlB7KpInB3TQ="
   on:
     branch: master
