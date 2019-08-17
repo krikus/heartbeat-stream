@@ -5,3 +5,9 @@ cache:
   npm: true
 script:
   - npm test
+deploy:
+  provider: npm
+  email: "krikus@gmail.com"
+  api_key: "NPM_KEY"
+  on:
+    branch: master

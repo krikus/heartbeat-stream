@@ -1,5 +1,5 @@
 {
-  "name": "@krikus/heartbeat-stream",
+  "name": "heartbeat-stream",
   "version": "1.0.0",
   "description": "heartbeat stream will help to keep objects flowing when main stream is waiting for more data",
   "main": "index.js",
@@ -21,7 +21,8 @@
     "streams",
     "limiting",
     "rate",
-    "heartbeat"
+    "heartbeat",
+    "throttle"
   ],
   "homepage": "https://github.com/krikus/heartbeat-stream#readme",
   "author": "Kamil Waśkiel <krikus@gmail.com>",
